@@ -1,0 +1,844 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Onest";
+  src: url("./assets/fonts/OnestBold1602-hint.eot");
+  src: local("☺"), url("./assets/fonts/OnestBold1602-hint.woff") format("woff"), url("./assets/fonts/OnestBold1602-hint.ttf") format("truetype"), url("./assets/fonts/OnestBold1602-hint.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Onest";
+  src: url("./assets/fonts/OnestExtraBold1602-hint.eot");
+  src: local("☺"), url("./assets/fonts/OnestExtraBold1602-hint.woff") format("woff"), url("./assets/fonts/OnestExtraBold1602-hint.ttf") format("truetype"), url("./assets/fonts/OnestExtraBold1602-hint.svg") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Onest";
+  src: url("./assets/fonts/OnestRegular1602-hint.eot");
+  src: local("☺"), url("./assets/fonts/OnestRegular1602-hint.woff") format("woff"), url("./assets/fonts/OnestRegular1602-hint.ttf") format("truetype"), url("./assets/fonts/OnestRegular1602-hint.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.container-fluid {
+  max-width: 1650px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+html, body {
+  min-width: 320px;
+  font-size: 14px; }
+
+.smp_widget {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  min-height: 100%;
+  height: auto !important;
+  width: 100%;
+  min-width: 320px;
+  position: relative; }
+  .smp_widget .h3, .smp_widget h3 {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 54px;
+    text-align: center;
+    color: #253942; }
+  .smp_widget .btn {
+    background: #10b899;
+    padding: 15px 54px 14px 54px;
+    height: 55px;
+    font-family: "Onest";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    border-radius: 5px; }
+  .smp_widget .phone-link {
+    text-decoration: none;
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.28em;
+    line-height: 23px;
+    color: #10b899; }
+  .smp_widget .adress-link {
+    text-decoration: none;
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.28em;
+    line-height: 23px;
+    color: #253942; }
+  .smp_widget .conteiner {
+    width: 1640px;
+    margin: 0px auto; }
+  .smp_widget header {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05), 0px 4px 10px rgba(0, 0, 0, 0.03); }
+    .smp_widget header .mobile-menu {
+      display: none; }
+    .smp_widget header .content__header_items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 85px;
+      align-items: center; }
+      .smp_widget header .content__header_items .logo {
+        padding: 0; }
+      .smp_widget header .content__header_items .map-link {
+        text-align: center; }
+        .smp_widget header .content__header_items .map-link img {
+          margin-top: 7px; }
+        .smp_widget header .content__header_items .map-link a {
+          margin-left: 6px;
+          bottom: 3px;
+          position: relative; }
+      .smp_widget header .content__header_items .social-image {
+        display: flex;
+        align-items: center; }
+        .smp_widget header .content__header_items .social-image .social-links {
+          display: flex;
+          align-items: center;
+          left: 18px;
+          position: relative; }
+          .smp_widget header .content__header_items .social-image .social-links div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            width: 32px;
+            margin-right: 12px;
+            border-radius: 100%;
+            background: #f8f8f8;
+            align-items: center; }
+      .smp_widget header .content__header_items .btn {
+        width: 319px; }
+  .smp_widget main .baner {
+    display: flex;
+    width: 100%; }
+    .smp_widget main .baner__img {
+      height: auto;
+      width: 100%; }
+      .smp_widget main .baner__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .smp_widget main .baner__text {
+      padding: 106px 122px; }
+      .smp_widget main .baner__text h2 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 4.64em;
+        line-height: 120%;
+        /* or 78px */
+        color: #253942; }
+      .smp_widget main .baner__text p {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #253942;
+        margin-top: 32px; }
+      .smp_widget main .baner__text .btn {
+        margin-top: 40px;
+        max-width: 361px;
+        font-size: 24px;
+        height: 60px;
+        width: 100%; }
+  .smp_widget main .main-services-baner {
+    background-color: #f8f8f8; }
+    .smp_widget main .main-services-baner .services-baner {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: center;
+      background: #f8f8f8; }
+      .smp_widget main .main-services-baner .services-baner .services-element {
+        margin: 40px 0;
+        border-right: 2px solid #10b899;
+        padding: 15px 50px; }
+        .smp_widget main .main-services-baner .services-baner .services-element p {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 150%;
+          text-align: center;
+          color: #253942; }
+        .smp_widget main .main-services-baner .services-baner .services-element:last-child {
+          border: none; }
+  .smp_widget main .table-comparison {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px; }
+    .smp_widget main .table-comparison .table-comprasion__content {
+      width: 100%;
+      max-width: 1018px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      position: relative; }
+      .smp_widget main .table-comparison .table-comprasion__content .param {
+        height: 50px;
+        font-family: Onest;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #253942; }
+        .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3n + 1) {
+          width: 32.6%; }
+        .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3n + 2) {
+          width: 26.5%;
+          border-left: 2px solid #10b899;
+          border-right: 2px solid #10b899;
+          align-items: center;
+          text-align: center; }
+        .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3n + 3) {
+          width: 32%;
+          align-items: center;
+          text-align: center; }
+        .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(2) {
+          border-top: 2px solid #10b899;
+          border-radius: 5px 5px 0 0; }
+        .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(20) {
+          border-bottom: 2px solid #10b899;
+          border-radius: 0 0 5px 5px; }
+    .smp_widget main .table-comparison h3 {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 54px;
+      display: block;
+      margin-top: 80px;
+      color: #253942; }
+  .smp_widget main .benefit-baner {
+    display: block;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    margin-top: 40px; }
+    .smp_widget main .benefit-baner .benefit-baner__header {
+      position: relative; }
+      .smp_widget main .benefit-baner .benefit-baner__header h3 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 54px;
+        display: block;
+        text-align: center;
+        color: #253942; }
+    .smp_widget main .benefit-baner .benefit-baner__content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 40px;
+      margin-top: 40px; }
+      .smp_widget main .benefit-baner .benefit-baner__content .benefit-baner__item {
+        display: flex;
+        background-color: #f8f8f8; }
+        .smp_widget main .benefit-baner .benefit-baner__content .benefit-baner__item .benefit-baner__data {
+          text-align: start;
+          display: flex;
+          padding: 20px 16px 19px 20px;
+          align-items: center; }
+          .smp_widget main .benefit-baner .benefit-baner__content .benefit-baner__item .benefit-baner__data .benefit__number {
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 42px;
+            line-height: 54px;
+            color: #10b899; }
+          .smp_widget main .benefit-baner .benefit-baner__content .benefit-baner__item .benefit-baner__data .benefit__desc {
+            margin-left: 38px;
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #253942; }
+  .smp_widget main .car-fluid {
+    background: #f8f8f8; }
+    .smp_widget main .car-fluid .car-table {
+      width: 100%;
+      display: flex;
+      margin-top: 80px;
+      align-items: center;
+      flex-direction: column; }
+      .smp_widget main .car-fluid .car-table .car-table__header {
+        margin-top: 80px;
+        position: relative;
+        right: 10px; }
+      .smp_widget main .car-fluid .car-table .car-table__content {
+        display: grid;
+        width: 100%;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        margin-top: 32px; }
+        .smp_widget main .car-fluid .car-table .car-table__content .car-table__item {
+          width: 380px;
+          height: 250px;
+          position: relative;
+          background-color: white; }
+          .smp_widget main .car-fluid .car-table .car-table__content .car-table__item:hover {
+            border: 1px solid #10b899; }
+          .smp_widget main .car-fluid .car-table .car-table__content .car-table__item p {
+            margin-top: 20px;
+            margin-left: 20px;
+            position: absolute;
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 150%;
+            color: #253942;
+            z-index: 2; }
+          .smp_widget main .car-fluid .car-table .car-table__content .car-table__item img {
+            position: absolute;
+            bottom: 0;
+            right: 0; }
+      .smp_widget main .car-fluid .car-table .car__deploy-link .link {
+        display: flex;
+        align-items: center;
+        margin-top: 45px;
+        margin-bottom: 80px;
+        color: #f8f8f8; }
+        .smp_widget main .car-fluid .car-table .car__deploy-link .link p {
+          margin-left: 12px;
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 31px;
+          border-bottom: 1.5px solid #10b899;
+          color: #10b899; }
+  .smp_widget main .car-slider {
+    width: 100%;
+    position: relative; }
+    .smp_widget main .car-slider .swiper__header {
+      margin-top: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .smp_widget main .car-slider .swiper__header .swiper__btn {
+        display: flex; }
+        .smp_widget main .car-slider .swiper__header .swiper__btn .prev-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 48px;
+          height: 48px;
+          border-radius: 100%;
+          background: #f8f8f8; }
+        .smp_widget main .car-slider .swiper__header .swiper__btn .next-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 48px;
+          height: 48px;
+          border-radius: 100%;
+          background: #f8f8f8;
+          margin-left: 16px; }
+    .smp_widget main .car-slider .swiper {
+      min-width: 0;
+      width: 100%;
+      height: 100%;
+      margin-top: 32px;
+      margin-bottom: 80px; }
+      .smp_widget main .car-slider .swiper .swiper-wrapper {
+        position: relative; }
+        .smp_widget main .car-slider .swiper .swiper-wrapper .swiper-slide {
+          width: 380px;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center; }
+          .smp_widget main .car-slider .swiper .swiper-wrapper .swiper-slide p {
+            color: #253942; }
+          .smp_widget main .car-slider .swiper .swiper-wrapper .swiper-slide .last-car {
+            width: 100%;
+            background: #f8f8f8;
+            height: 186px; }
+          .smp_widget main .car-slider .swiper .swiper-wrapper .swiper-slide .last-car__name {
+            font-family: Onest;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: center; }
+          .smp_widget main .car-slider .swiper .swiper-wrapper .swiper-slide .lastcar__age {
+            font-family: Onest;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: center; }
+          .smp_widget main .car-slider .swiper .swiper-wrapper .swiper-slide .last-car_description {
+            font-family: Onest;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: center; }
+      .smp_widget main .car-slider .swiper .swiper__btn_bottom {
+        display: none; }
+        .smp_widget main .car-slider .swiper .swiper__btn_bottom .prev-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 48px;
+          height: 48px;
+          border-radius: 100%;
+          background: #f8f8f8; }
+        .smp_widget main .car-slider .swiper .swiper__btn_bottom .next-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 48px;
+          height: 48px;
+          border-radius: 100%;
+          background: #f8f8f8;
+          margin-left: 16px; }
+  .smp_widget main .contacts {
+    width: 100%;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .smp_widget main .contacts .contacts-title {
+      margin-top: 80px; }
+    .smp_widget main .contacts .h3 {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 54px;
+      display: block;
+      text-align: center;
+      color: #253942;
+      position: relative;
+      right: 8px; }
+    .smp_widget main .contacts .contacts__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1361px;
+      margin: auto;
+      width: 100%; }
+      .smp_widget main .contacts .contacts__content .contacts__steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        justify-content: center;
+        margin-top: 33px;
+        width: 100%;
+        gap: 40px 110px; }
+        .smp_widget main .contacts .contacts__content .contacts__steps .contacts__img-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background: #ffffff;
+          border-radius: 7px; }
+          .smp_widget main .contacts .contacts__content .contacts__steps .contacts__img-container .contacts__img {
+            margin-top: 30px;
+            width: 100px;
+            height: 100px;
+            background: #f8f8f8;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+          .smp_widget main .contacts .contacts__content .contacts__steps .contacts__img-container .contacts__text {
+            margin-top: 13px;
+            margin-bottom: 30px; }
+            .smp_widget main .contacts .contacts__content .contacts__steps .contacts__img-container .contacts__text p {
+              font-family: Onest;
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 36px;
+              letter-spacing: 0em;
+              text-align: center;
+              color: #253942; }
+              .smp_widget main .contacts .contacts__content .contacts__steps .contacts__img-container .contacts__text p:last-child {
+                font-family: Onest;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em; }
+      .smp_widget main .contacts .contacts__content .estimate-form {
+        width: 100%; }
+        .smp_widget main .contacts .contacts__content .estimate-form .estimate {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #ffffff;
+          border-radius: 7px;
+          padding: 20px 40px;
+          margin-top: 85px; }
+          .smp_widget main .contacts .contacts__content .estimate-form .estimate p {
+            font-family: Onest;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0em;
+            color: #253942; }
+          .smp_widget main .contacts .contacts__content .estimate-form .estimate button {
+            width: 361px;
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 31px; }
+      .smp_widget main .contacts .contacts__content .contact-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        position: relative; }
+        .smp_widget main .contacts .contacts__content .contact-links .contact-links__text {
+          display: flex;
+          flex-direction: column; }
+          .smp_widget main .contacts .contacts__content .contact-links .contact-links__text a {
+            text-decoration: none; }
+          .smp_widget main .contacts .contacts__content .contact-links .contact-links__text .contacts__phone {
+            font-family: Onest;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #10b899; }
+          .smp_widget main .contacts .contacts__content .contact-links .contact-links__text .contacts__adress {
+            text-decoration: none;
+            font-family: VW Head;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #253942; }
+        .smp_widget main .contacts .contacts__content .contact-links .contacts__social-links {
+          display: flex;
+          align-items: center;
+          margin-top: 11px;
+          position: relative;
+          left: 9px; }
+          .smp_widget main .contacts .contacts__content .contact-links .contacts__social-links div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 32px;
+            width: 32px;
+            margin-right: 12px;
+            border-radius: 100%;
+            background: #f8f8f8; }
+  .smp_widget footer .copyright {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0; }
+    .smp_widget footer .copyright a {
+      font-family: Onest;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      color: #10b899; }
+  @media (max-width: 1280px) {
+    .smp_widget .content__header .content__header_items .map-link {
+      display: none; } }
+  @media (max-width: 1095px) {
+    .smp_widget .estimate {
+      flex-direction: column; }
+      .smp_widget .estimate .btn {
+        margin-top: 20px;
+        font-size: 20px; }
+    .smp_widget main .car-fluid .car-table .car-table__content .car-table__item {
+      height: 96px !important;
+      width: 100% !important; }
+      .smp_widget main .car-fluid .car-table .car-table__content .car-table__item p {
+        font-size: 16px !important;
+        margin-right: 130px;
+        margin-top: 11px; }
+      .smp_widget main .car-fluid .car-table .car-table__content .car-table__item img {
+        width: 130px !important; }
+    .smp_widget main .main-services-baner .services-baner {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f8f8f8; }
+      .smp_widget main .main-services-baner .services-baner .services-element {
+        display: flex;
+        border: none;
+        background: #ffffff;
+        border-left: 3px solid #10b899;
+        border-radius: 5px;
+        padding: 16px 16px 16px 24px;
+        margin: 12px 16px 0px 20px;
+        width: 100%; }
+        .smp_widget main .main-services-baner .services-baner .services-element p {
+          font-family: Onest;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left; }
+        .smp_widget main .main-services-baner .services-baner .services-element:first-child {
+          margin-top: 40px;
+          border-left: 3px solid #10b899;
+          border-radius: 5px;
+          padding: 16px 16px 16px 24px; }
+        .smp_widget main .main-services-baner .services-baner .services-element:last-child {
+          border: none;
+          border-left: 3px solid #10b899;
+          border-radius: 5px;
+          padding: 16px 16px 16px 24px;
+          margin-bottom: 40px; }
+    .smp_widget main .baner {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto; }
+      .smp_widget main .baner img {
+        width: 100%;
+        height: auto;
+        margin-top: 40px; }
+      .smp_widget main .baner h2 {
+        font-family: Onest;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left; }
+      .smp_widget main .baner .baner__text {
+        max-width: 80%;
+        padding: 40px 20px 0 20px; }
+        .smp_widget main .baner .baner__text p {
+          width: 100%;
+          font-family: Onest;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left; }
+        .smp_widget main .baner .baner__text .btn {
+          margin-top: 40px;
+          font-family: Onest;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0em;
+          height: 49px;
+          padding: 15px, 54px, 14px, 54px; }
+    .smp_widget main .table-comparison {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto; }
+      .smp_widget main .table-comparison .table-comprasion__content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px; }
+        .smp_widget main .table-comparison .table-comprasion__content .param {
+          height: 40px;
+          font-family: Onest;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #253942; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(1) {
+            display: none; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3n + 1) {
+            width: 100%;
+            font-family: Onest;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: center;
+            border-left: 2px solid #10b899; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3n + 2) {
+            width: 49%;
+            border-left: 2px solid #10b899;
+            border-right: 2px solid #10b899;
+            align-items: center;
+            text-align: center; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3n + 3) {
+            width: 49%;
+            align-items: center;
+            text-align: center; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(2) {
+            border-top: 2px solid #10b899;
+            border-radius: 5px 5px 0 0;
+            font-family: Onest;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0em;
+            text-align: center; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(3) {
+            font-family: Onest;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0em;
+            text-align: center; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(5) {
+            font-family: Onest;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: center; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(6) {
+            font-family: Onest;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: center; }
+          .smp_widget main .table-comparison .table-comprasion__content .param:nth-child(20) {
+            border-bottom: 2px solid #10b899;
+            border-radius: 0 0 5px 5px; }
+      .smp_widget main .table-comparison h3 {
+        font-family: Onest;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: center;
+        display: block;
+        margin-top: 80px;
+        color: #253942; } }
+  @media (max-width: 880px) {
+    .smp_widget .content__header .content__header_items .social-image {
+      display: none; } }
+  @media (max-width: 780px) {
+    .smp_widget .swiper__header .swiper__btn {
+      display: none !important; }
+    .smp_widget .swiper .swiper__btn_bottom {
+      display: flex !important;
+      justify-content: center;
+      margin-top: 30px; }
+    .smp_widget .estimate {
+      flex-direction: column; }
+      .smp_widget .estimate .btn {
+        margin-top: 20px; } }
+  @media (max-width: 678px) {
+    .smp_widget header {
+      height: 56px;
+      width: 100%; }
+      .smp_widget header .content__header_items {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        margin: 0; }
+        .smp_widget header .content__header_items .desctop-logo {
+          width: 121px;
+          height: 38px;
+          margin-left: 10px; }
+        .smp_widget header .content__header_items .mobile-menu {
+          display: block;
+          margin-right: 10px; }
+        .smp_widget header .content__header_items .header__info {
+          display: none;
+          background-color: #ee4266; }
+        .smp_widget header .content__header_items .btn {
+          display: none; }
+    .smp_widget main .table-comparison .h3 {
+      font-size: 35px; }
+    .smp_widget main .car-fluid .car-table .car-table__header .h3 {
+      font-size: 35px; }
+    .smp_widget main .swiper__title h3 {
+      font-size: 24px !important;
+      font-style: normal !important;
+      font-weight: 800 !important;
+      line-height: 120% !important;
+      text-align: center !important; }
+    .smp_widget main .swiper .swiper-wrapper {
+      position: relative; }
+      .smp_widget main .swiper .swiper-wrapper .swiper-slide {
+        width: 300px !important; }
+        .smp_widget main .swiper .swiper-wrapper .swiper-slide img {
+          width: 300px !important; }
+    .smp_widget main .estimate .btn {
+      font-size: 14px !important; }
+    .smp_widget main .benefit-baner {
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .smp_widget main .benefit-baner .benefit-baner__header .h3 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 54px;
+        display: block;
+        text-align: center;
+        color: #253942; }
+      .smp_widget main .benefit-baner .benefit-baner__content .benefit-baner__item .benefit-baner__data .benefit__number {
+        margin-left: 16px; }
+      .smp_widget main .benefit-baner .benefit-baner__content .benefit-baner__item .benefit-baner__data .benefit__desc {
+        font-size: 16px; }
+    .smp_widget main .contacts-title .h3 {
+      font-size: 35px; }
+    .smp_widget main .contacts__steps .contacts__img-container {
+      padding: 16px;
+      flex-direction: row !important;
+      justify-content: space-around; }
+      .smp_widget main .contacts__steps .contacts__img-container .contacts__img {
+        margin: unset !important; }
+      .smp_widget main .contacts__steps .contacts__img-container .contacts__text {
+        margin: unset !important; } }
+  @media (max-width: 576px) {
+    .smp_widget .estimate .btn {
+      width: 100% !important; } }
