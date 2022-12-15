@@ -11,7 +11,7 @@ const swiper = new Swiper(".mySwiper", {
 	// breakpoints: {
 	// 	// when window width is >= 320px
 	// 	320: {
-	// 		slidesPerView: 2,
+	// 		slidesPerView: 1,
 	// 		spaceBetween: 20,
 	// 	},
 	// 	// when window width is >= 480px
@@ -26,3 +26,11 @@ const swiper = new Swiper(".mySwiper", {
 	// 	},
 	// },
 });
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+	document.getElementById("sub_content__header").classList.toggle("hidden");
+	document.getElementById("dropbtn").classList.toggle("active");
+	document.getElementById("mfp-bg").classList.toggle("mfp-bg");
+}

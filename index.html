@@ -12,6 +12,7 @@
 		/>
 	</head>
 	<body>
+	<div id="mfp-bg"></div>
 		<div class="smp_widget">
 			<header>
 				<div class="content__header container-fluid">
@@ -56,11 +57,35 @@
 							</div>
 						</div>
 						<button class="btn"><p>Оценить автомобиль</p></button>
-						<img
-								class="mobile-menu"
-								src="./assets/image/mobile/mob-menu.png"
-								alt=""
-						/>
+
+						<div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn" id="dropbtn"></button>
+						</div>
+					</div>
+				</div>
+
+				<div id="sub_content__header" class="sub_content__header container-fluid hidden">
+					<div class="sub_content__header_items">
+						<div class="sub_content__header_item_text">
+
+							<a href="tel:+79999299999" class="phone-link">+7 (999) 929 99 99</a>
+
+							<div class="sub_map-link">
+								<a href="#" class="adress-link">Волжский, ул. Александрова, 18а</a>
+							</div>
+
+							<div class="sub_social-image">
+								<div class="sub_social-links">
+									<a href="#" class="vk"></a>
+									<a href="#" class="tg"></a>
+									<a href="#" class="ok"></a>
+									<a href="#" class="wa"></a>
+								</div>
+							</div>
+						</div>
+						<div class="sub_content__header_item">
+							<button class="btn"><p>Оценить автомобиль</p></button>
+						</div>
 					</div>
 				</div>
 			</header>
@@ -106,7 +131,7 @@
 						<div class="table-comprasion__container">
 							<div class="table-comprasion__content">
 								<div class="param"></div>
-								<div class="param">Продажа через нас</div>
+								<div class="param"><b>Продажа через нас</b></div>
 								<div class="param">Продажа своими силами</div>
 								<div class="param">Скорость продажи</div>
 								<div class="param">~24 часа</div>
@@ -245,20 +270,20 @@
 
 				<div class="car-slides">
 					<div class="car-slider container-fluid">
-						<div class="swiper__header">
-							<div class="swiper__title">
-								<h3>Последние выкупленные автомобили</h3>
-							</div>
-							<div class="swiper__btn">
-								<div class="prev-btn">
-									<img src="./assets/image/left-arrow.png" alt="" />
-								</div>
-								<div class="next-btn">
-									<img src="./assets/image/right-arrow.png" alt="" />
-								</div>
-							</div>
-						</div>
 						<div class="swiper mySwiper">
+							<div class="swiper__header">
+								<div class="swiper__title">
+									<h3>Последние выкупленные автомобили</h3>
+								</div>
+								<div class="swiper__btn">
+									<div class="prev-btn">
+										<img src="./assets/image/left-arrow.png" alt="" />
+									</div>
+									<div class="next-btn">
+										<img src="./assets/image/right-arrow.png" alt="" />
+									</div>
+								</div>
+							</div>
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<img src="./assets/image/car-slider/1.png" alt="" />
@@ -418,16 +443,10 @@
 									>
 								</div>
 								<div class="contacts__social-links">
-									<div>
-										<img src="./assets/image/Vector.png" alt="" />
-									</div>
-									<div>
-										<img src="./assets/image/Telegram.png" alt="" />
-									</div>
-									<div><img src="./assets/image/Ok.png" alt="" /></div>
-									<div>
-										<img src="./assets/image/WhatsApp.png" alt="" />
-									</div>
+									<a href="#" class="vk white"></a>
+									<a href="#" class="tg white"></a>
+									<a href="#" class="ok white"></a>
+									<a href="#" class="wa white"></a>
 								</div>
 							</div>
 						</div>
